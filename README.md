@@ -27,3 +27,22 @@ When alerts are triggered in Sentinel:
   - Resolution
 
 Example Ticket:
+Incident ID: INC-1001
+Alert Type: Failed Login Attempts
+Assigned To: SOC Analyst
+Status: Resolved
+Resolution: User account locked, password reset required.
+
+
+## MITRE ATT&CK Mapping
+- **Failed Logins** → T1110 (Brute Force)  
+- **Suspicious IP Geolocation** → T1078 (Valid Accounts)
+
+## Screenshots
+*(Insert screenshots here)*  
+- ![Sentinel Dashboard](images/sentinel-dashboard.png)  
+- ![Detection Rule](images/failed-login-rule.png)  
+- ![ServiceNow Ticket](images/servicenow-ticket.png)  
+
+## Conclusion
+This lab demonstrates how SOC teams can use Microsoft Azure Sentinel for cloud-based threat detection and ServiceNow for streamlined incident management.
